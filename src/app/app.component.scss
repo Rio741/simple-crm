@@ -1,0 +1,62 @@
+.mat-toolbar, .mat-toolbar-row{
+background-color: royalblue;
+display: flex;
+align-items: center;
+color: white;
+font-weight: 400;
+min-height: 56px;
+height: 56px;
+gap: 12px;
+}
+
+.mat-drawer-container{
+  height: 100vh;
+}
+
+.menu-icon{
+  cursor: pointer;
+}
+
+.sidenav{
+  width: 300px;
+}
+
+.logo-container{
+  border-bottom: solid 1px rgba(0,0,0,0.04);
+  min-height: 56px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+}
+
+.menu-icons{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+
+
+li{
+  padding: 0 16px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+mat-icon{margin-right: 16px;}
+
+  &:hover{
+    background-color: rgba(0,0,0,0.04);
+  }
+
+  &:focus{
+    outline: none;
+  }
+}
+}
+
+
+.router-container{
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-top: 16px;
+}
